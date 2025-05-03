@@ -1,0 +1,38 @@
+.op {
+    height: 100vh;
+    width: 100%;
+    background-image: url('/images/index/csMenu.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+.menu {
+  position: absolute;
+  left: 10%;
+  top: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+  /* Estilo dos links */
+  .menu a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .menu a:hover {
+    color: yellow;
+    cursor: pointer;
+    text-decoration: dashed 2px 2px;
+  }

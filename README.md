@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Projeto para Assistente de Engenharia de Software na Furia
 
-## Getting Started
+Este repositório contém um projeto desenvolvido como parte de um processo seletivo para a vaga de Assistente de Engenharia de Software na FURIA.
 
-First, run the development server:
+## Tecnologias utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- NEXT.js
+- GROQ
+- PRISMA (Known Your Fans)
+- BOOTSTRAP
+
+### Descrição do projeto
+
+Ao acessar o site, o usuário encontrará uma página inicial contendo dois links: um para o **Chatbot** e outro para a seção **Know Your Fans**./
+
+[!Warning]
+A funcionalidade Know Your Fans não foi finalizada até a data de entrega do projeto e, portanto, não está documentada neste README.\
+
+## chatbot
+
+O Chatbot permite a interação com a IA de duas formas:\
+
+1. Mensagens Prontas:
+    - Localizado ao lado do campo de texto, na lateral inferior da página, há um botão com ícone de prancheta.
+    - Ao clicar, um dropdown é exibido com diversos tópicos.
+    - Ao selecionar uma opção, uma mensagem é enviada automaticamente e a resposta da IA aparece na interface.
+
+2. Entrada Personalizada via IA:
+    - O usuário pode digitar livremente no campo de texto e clicar no botão de envio.
+    - Após alguns segundos, a IA responderá com base na entrada fornecida.
+    - O modelo utilizado é o LLaMA 3, executado via API da Groq. A IA foi configurada para agir como uma assistente institucional da FURIA, fornecendo informações sobre a organização.
+
+### Configuração da API
+
+Para executar o projeto localmente com a IA:\
+
+- Crie uma conta em: [GROq](https://console.groq.com/keys) e gere uma chave de API;
+- Crie um arquivo ```.env``` na raiz do projeto e adicione a variável:\
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GROQ_API_KEY=sua_chave_aqui
+```
