@@ -11,14 +11,14 @@ Este repositório contém um projeto desenvolvido como parte de um processo sele
 
 ### Descrição do projeto
 
-Ao acessar o site, o usuário encontrará uma página inicial contendo dois links: um para o **Chatbot** e outro para a seção **Know Your Fans**./
+Ao acessar o site, o usuário encontrará uma página inicial contendo dois links: um para o **Chatbot** e outro para a seção **Know Your Fans**.
 
 > [!WARNING]
-> A funcionalidade Know Your Fans não foi finalizada até a data de entrega do projeto e, portanto, não está documentada neste README./
+> A funcionalidade Know Your Fans não foi finalizada até a data de entrega do projeto e, portanto, não está documentada neste README.
 
 ## chatbot
 
-O Chatbot permite a interação com a IA de duas formas:/
+O Chatbot permite a interação com a IA de duas formas:
 
 1. Mensagens Prontas:
     - Localizado ao lado do campo de texto, na lateral inferior da página, há um botão com ícone de prancheta.
@@ -32,10 +32,10 @@ O Chatbot permite a interação com a IA de duas formas:/
 
 ### Configuração da API
 
-Para executar o projeto localmente com a IA:/
+Para executar o projeto localmente com a IA:
 
 - Crie uma conta em: [GROq](https://console.groq.com/keys) e gere uma chave de API;
-- Crie um arquivo ```.env``` na raiz do projeto e adicione a variável:/
+- Crie um arquivo ```.env``` na raiz do projeto e adicione a variável:
 ```
 GROQ_API_KEY=sua_chave_aqui
 ```
