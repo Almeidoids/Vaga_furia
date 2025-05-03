@@ -13,7 +13,8 @@ Este repositório contém um projeto desenvolvido como parte de um processo sele
 
 Ao acessar o site, o usuário encontrará uma página inicial contendo dois links: um para o **Chatbot** e outro para a seção **Know Your Fans**./
 
-[!WARNING] A funcionalidade Know Your Fans não foi finalizada até a data de entrega do projeto e, portanto, não está documentada neste README./
+> [!WARNING]
+> A funcionalidade Know Your Fans não foi finalizada até a data de entrega do projeto e, portanto, não está documentada neste README./
 
 ## chatbot
 
